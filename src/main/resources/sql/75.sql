@@ -1,0 +1,1 @@
+select  updateAllSchemaWithGivenQuery('ALTER TABLE contentblock ADD aspectRatio CHARACTER VARYING(255)');

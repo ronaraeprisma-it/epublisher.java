@@ -1,0 +1,1 @@
+update Spaarne_Gasthuis.templatenarrowcasting set htmltemplate = 'sg-video-fullscreen' where name = 'Video-Fullscreen';

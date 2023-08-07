@@ -1,0 +1,1 @@
+select updateAllSchemaWithGivenQuery('ALTER TABLE landingpage_articles ADD COLUMN "orderofarticle" INTEGER');

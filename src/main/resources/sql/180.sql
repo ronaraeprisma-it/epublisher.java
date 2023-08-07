@@ -1,0 +1,1 @@
+GRANT epublisher to dashboard;

@@ -1,0 +1,5 @@
+INSERT INTO ziekenhuis_tjongerschans.templatenarrowcasting (id, entityversion, htmltemplate, name, previewimage_id) VALUES ( nextval('ziekenhuis_tjongerschans.epublisher_sequence'),	1,	'tjs-title-and-text',	'Title + Text'	,null);
+
+INSERT INTO ziekenhuis_tjongerschans.containerarea (id, entityversion, containerposition) VALUES (nextval('ziekenhuis_tjongerschans.epublisher_sequence'), 1, 1);
+INSERT INTO ziekenhuis_tjongerschans.containerarea_allowedcontent (containerarea_id, allowedcontent) VALUES ((Select max(id) from ziekenhuis_tjongerschans.containerarea),'tekst');
+INSERT INTO ziekenhuis_tjongerschans.templatenarrowcasting_containerarea (templatenarrowcasting_id, containerareas_id) VALUES ((Select max(id) from ziekenhuis_tjongerschans.templatenarrowcasting),	(Select max(id) from ziekenhuis_tjongerschans.containerarea));

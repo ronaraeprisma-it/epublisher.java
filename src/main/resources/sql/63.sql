@@ -1,0 +1,1 @@
+  select  updateAllSchemaWithGivenQuery('ALTER TABLE contentblock RENAME COLUMN brightcoveid TO videoId;ALTER TABLE contentblock ADD COLUMN duration INTEGER;ALTER TABLE contentblock ADD COLUMN source VARCHAR;')

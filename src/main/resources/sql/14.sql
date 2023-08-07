@@ -1,0 +1,1 @@
+ALTER TABLE "epublishermedia" ADD COLUMN parentImageId integer NULL;

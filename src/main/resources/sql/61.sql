@@ -1,0 +1,1 @@
+select  updateAllSchemaWithGivenQuery('grant select, references,update on epublisheruser to dashboard;;')

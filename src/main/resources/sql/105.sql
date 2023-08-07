@@ -1,0 +1,1 @@
+select  updateAllSchemaWithGivenQuery('grant select, references on publication_subscriptiongroup to dashboard;');

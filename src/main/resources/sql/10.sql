@@ -1,0 +1,1 @@
+ALTER TABLE contentblock ADD COLUMN title varchar(30);

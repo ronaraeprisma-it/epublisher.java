@@ -1,0 +1,2 @@
+ALTER TABLE World_Trade_Center. templatenarrowcasting DROP CONSTRAINT fkcb7d950ee67b987e;
+ALTER TABLE World_Trade_Center. templatenarrowcasting ADD CONSTRAINT fkcb7d950ee67b987e FOREIGN KEY ("defaultimage_id") REFERENCES World_Trade_Center. epublishermedia ("id");

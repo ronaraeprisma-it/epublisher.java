@@ -1,0 +1,1 @@
+select  updateAllSchemaWithGivenQuery('ALTER table ePublishermedia ADD COLUMN uploaded boolean default FALSE'); 

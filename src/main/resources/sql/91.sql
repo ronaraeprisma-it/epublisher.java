@@ -1,0 +1,1 @@
+select  updateAllSchemaWithGivenQuery('INSERT INTO outputchannel (dtype, id, name, entityversion) VALUES (''OutputChannelFacebook''	,5,	''facebook'',	1);')
